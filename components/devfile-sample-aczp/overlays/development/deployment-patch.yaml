@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-aczp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0088-tenant/ci1t-43256-0088-app/devfile-sample-aczp@sha256:2db17b72f370ef1233019a0a68b8bbdd75d43b978d9fb7e37bb35a1f38533375
+        name: my-nodejs
+        resources: {}
+status: {}
